@@ -2,7 +2,7 @@
 
 Public Class CombineCl
 
-  public  Event RaiseFinishedList(ByVal sender As Object, byval comboList As List(Of String))
+  public Event RaiseFinishedList(ByVal sender As Object, byval comboList As List(Of String))
 
     Function LoadFile (ByVal fileLocation As String) As List(Of string)
         Dim listString  As List(Of String) = File.ReadAllLines(fileLocation).ToList()
